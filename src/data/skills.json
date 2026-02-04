@@ -1,0 +1,38 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Java script",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png"
+  },
+  {
+    "title": "Mongo DB",
+    "imageSrc": "skills/mongo-db.png"
+  },
+  {
+    "title": "Git hub",
+    "imageSrc": "skills/github.png"
+  },
+  {
+    "title": "VS code",
+    "imageSrc": "skills/vs-code.png"
+  }
+]

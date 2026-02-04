@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CineSanchika",
+    "imageSrc": "projects/CineSanchika.png",
+    "description": "A movie-based web application where users can explore films and write or read user reviews.",
+    "skills": ["React", "Express", "Node", "Mongo DB"],
+    "demo": "https://drive.google.com/file/d/1rCd-0lCwF_G9ZqruXRLCs7xNjpzmPVak/view?usp=sharing",
+    "source": "https://github.com/prasadlenka9/Cine_Sanchika"
+  },
+  {
+    "title": "Far cloud",
+    "imageSrc": "projects/Far cloud.png",
+    "description": "An image storage application that allows users to upload and manage images using AWS S3 cloud storage.",
+    "skills": ["React", "Node", "AWS S3 bucket"],
+    "demo": "https://farcloud-app.vercel.app/",
+    "source": "https://github.com/prasadlenka9/farcloud-app.git"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": "projects/Portfolio.png",
+    "description": "A personal portfolio website showcasing my projects, skills, and professional profile.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://drive.google.com/file/d/1ru7u76sYSCNcTbVB3IBs4VS6FptbdW2s/view?usp=sharing",
+    "source": "https://www.github.com"
+  }
+]
