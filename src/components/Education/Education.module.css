@@ -1,0 +1,98 @@
+
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 48px;
+  margin-top: 72px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.eduList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.eduItem {
+  padding: 22px;
+  border-radius: 12px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(87,108,188,0.08) 0%,
+    rgba(255,255,255,0) 100%
+  );
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.institution {
+  font-size: 25px;
+  margin: 0;
+  color: var(--color-text);
+  font-weight: 600;
+  /* allow truncation when space is limited */
+  flex: 1 1 auto;
+  min-width: 0; /* enable overflow/ellipsis in flex */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.period {
+  font-size: 18px;
+  color: var(--color-text);
+  opacity: 0.9;
+  /* keep year on single line and do not shrink */
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.degree {
+  margin-top: 6px;
+  font-size: 22px;
+  color: var(--color-text);
+}
+
+.address {
+  margin-top: 8px;
+  font-size: 18px;
+  color: var(--color-text);
+  opacity: 0.85;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    background: transparent;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .title { font-size: 28px; }
+  /* reduce institution size and keep it truncated instead of wrapping the period */
+  .institution { font-size: 20px; }
+  .degree { font-size: 18px; }
+  .institution { max-width: calc(100% - 120px); }
+}
