@@ -20,7 +20,7 @@
     "imageSrc": "projects/Portfolio.png",
     "description": "A personal portfolio website showcasing my projects, skills, and professional profile.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://react-portfolio-nine-wine.vercel.app/",
+    "demo": "https://lenkaportfolio.vercel.app/",
     "source": "https://github.com/prasadlenka9/react-portfolio.git"
   }
 ]
