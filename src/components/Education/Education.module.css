@@ -34,10 +34,10 @@
   padding: 22px;
   border-radius: 12px;
   background-image: linear-gradient(
-    90deg,
-    rgba(87,108,188,0.08) 0%,
-    rgba(255,255,255,0) 100%
-  );
+        90deg, 
+        rgba(165, 215, 352, 0.42) 0%,
+      rgba(255, 255, 255, 0)100%
+    );
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.45s ease;
@@ -47,6 +47,7 @@
   background-size: 100% 100%;
   transition: background-size 0.45s ease;
 }
+
 
 .header {
   display: flex;
