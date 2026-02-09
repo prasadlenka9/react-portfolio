@@ -91,4 +91,16 @@
         display: flex;
         z-index: 1;
     }
+    
+    /* reduce menu icon size so it doesn't overpower the title */
+    .menuBtn img,
+    .menuBtn svg {
+        width: 20px;
+        height: 20px;
+        display: block;
+    }
+    
+    .menuBtn {
+        padding: 6px;
+    }
 }

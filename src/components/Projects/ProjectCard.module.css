@@ -72,5 +72,22 @@
     .skillImage {
         width: auto;
     }
-    .link { font-size: 18px; padding: 4px 12px; }
+    .links {
+        display: flex;
+        gap: 8px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .link {
+        font-size: 14px;
+        padding: 6px 10px;
+        border-radius: 8px;
+        background: var(--color-primary);
+        color: var(--color-text);
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
 }
