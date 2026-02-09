@@ -104,6 +104,7 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
+        gap: 40px;
     }
 
     .content {
@@ -246,7 +247,7 @@
 
     .heroImgWrapper {
         width: 280px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .title {

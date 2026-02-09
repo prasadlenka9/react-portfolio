@@ -74,8 +74,8 @@
     }
     .links {
         display: flex;
-        gap: 8px;
-        justify-content: space-between;
+        gap: 6px;
+        justify-content: flex-start;
         align-items: center;
     }
 
@@ -88,6 +88,6 @@
         text-decoration: none;
         display: inline-flex;
         align-items: center;
-        gap: 8px;
+        gap: 6px;
     }
 }

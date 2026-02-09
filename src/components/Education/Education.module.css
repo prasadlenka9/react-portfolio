@@ -38,6 +38,14 @@
     rgba(87,108,188,0.08) 0%,
     rgba(255,255,255,0) 100%
   );
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.45s ease;
+}
+
+.eduItem:hover {
+  background-size: 100% 100%;
+  transition: background-size 0.45s ease;
 }
 
 .header {

@@ -43,8 +43,6 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
-        padding-top: 20px;
-        margin: 0 4%;
     }
 
     .menu {
@@ -60,11 +58,8 @@
     .menuBtn {
         display: block;
         cursor: pointer;
-    }
-
-    .title {
-        font-size: 20px;
-        font-weight: 600;
+        width: 25px;       /* ✅ smaller than title */
+        height: 25px;
     }
 
     .menuItems {
@@ -83,24 +78,8 @@
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
 
-    .menuItems a {
-        font-size: 18px;
-    }
-
     .menuOpen {
         display: flex;
         z-index: 1;
-    }
-    
-    /* reduce menu icon size so it doesn't overpower the title */
-    .menuBtn img,
-    .menuBtn svg {
-        width: 20px;
-        height: 20px;
-        display: block;
-    }
-    
-    .menuBtn {
-        padding: 6px;
     }
 }
