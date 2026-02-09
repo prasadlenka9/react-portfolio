@@ -59,3 +59,18 @@
     background: var(--color-primary);
     padding: 1px 22px;
 }
+
+@media screen and (max-width: 830px) {
+    .container {
+        padding: 8px 12px;
+        max-width: 100%;
+    }
+
+    .title { font-size: 20px; }
+    .description { font-size: 16px; }
+    .skill { font-size: 14px; padding: 4px 12px; }
+    .skillImage {
+        width: auto;
+    }
+    .link { font-size: 18px; padding: 4px 12px; }
+}

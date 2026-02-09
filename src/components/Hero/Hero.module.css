@@ -248,4 +248,17 @@
         width: 280px;
         margin-bottom: 40px;
     }
+
+    .title {
+        font-size: 27px;
+    }
+
+    .description {
+        font-size: 22px;
+    }
+
+    .contactBtn {
+        font-size: 22px;
+        padding: 12px 20px;
+    }
 }

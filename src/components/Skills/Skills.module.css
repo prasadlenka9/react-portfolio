@@ -65,7 +65,25 @@
 
     .skills {
         width: 100%;
-        flex-direction: row;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 18px;
+        justify-items: center;
     }
+
+    .title { font-size: 28px; }
+
+    .skill {
+        width: 100%;
+        max-width: 140px;
+    }
+
+    .skillImageContainer {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skillImageContainer img { width: 48px; }
+
+    .skill p { font-size: 16px; }
 }
